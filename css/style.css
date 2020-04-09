@@ -1,0 +1,135 @@
+@font-face {
+  font-family: georgia;
+  src: url(../georgia/Georgia.ttf);
+}
+/*
+@font-face {
+  font-family: helveticas;
+  src: url(../helveticaneue/HelveticaNeue.ttf);
+}
+*/
+* {
+font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+    font-family: Helvetica;
+}
+p {
+    margin-bottom: 20px;
+}
+/*welcome msg start*/
+h2 {
+    font-size: 22px; 
+    font-weight: 600; 
+    margin-top: 30px;
+    color: #3f83bf;
+    text-transform: uppercase;
+}
+.bar-100 {
+    height: 3px;
+    width: 100px;
+    background: #3f83bf;
+    margin: 0 auto;
+}
+a {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+.oddcatcher-list li {
+    position: relative;
+    left: 30px;
+}
+.oddcatcher-list li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../images/tick.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+}
+.welcome-video {
+    width: 100%;
+    height: 220px;
+    background: gray;
+}
+.welcome-right p {
+    font-size: 13px;
+}
+.welcome-msg-text p {
+    
+}
+.redtext-content  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #ede8f7;
+}
+/*welcome msg end*/
+.helvetica {
+    font-family: Helvetica;
+}
+.single {
+    padding: 20px 0;
+}
+#accountManagement {
+    padding-bottom: 30px;
+}
+.cp {
+    padding: 30px 0;
+}
+.banner {
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*step start*/
+.step {
+    position: relative;
+    margin-bottom: 30px;
+}
+.step-circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 15px 0;
+    text-align: center;
+    left: -50px;
+    top: -10px;
+    font-weight: bold;
+}
+/*step end*/
+/*pricing start*/
+#threeCol {
+    border-bottom: 2px solid #d5d5d5;
+}
+#pricing .card {
+    border: 0;
+    box-shadow: 3px 5px 10px #e0e0e0;
+}
+#pricing .card-header {
+    background: #ff712c;
+    color: #fff;
+}
+.btn-round {
+    width: 100%;
+    border-radius: 30px;
+    background: #f57c40;
+    color: #fff;
+}
+.btn-round:hover {
+    background: #ff712c;
+    color: #fff;
+}
+/*pricing end*/
